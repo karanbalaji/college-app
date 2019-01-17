@@ -8,14 +8,20 @@ import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import karan from '../../resources/images/karan.jpeg';
 import profilePic from '../../resources/images/user.svg';
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faIgloo } from '@fortawesome/free-solid-svg-icons'
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faIgloo } from '@fortawesome/free-solid-svg-icons';
+import Grow from '@material-ui/core/Grow';
+
+
+
 
 
 const seeking1 = ['Graphic Design','Content','UI Design','Analytics','Graphic Designer','Coder','Graphic Designer','Code','Photography','Design','Ui Design','Content Writing','Developer','Project Manager','Code & Wordpress','Tech Specs','Graphic Design','Graphic Design']
 const seeking2 = ['Content','Coding','Content PLanning','Business & Content','Content','Visual Design','Research Ideas','Content','Graphic Designer','Copyediting','Music','Ecommerce','Content Strategy','Decision Making','Copyediting','Data Visualizer','Research Ideas','Coding']
 const seeking3 = ['Video','Tech Spec','Healthcare','Coding','UI','Copyediting','Journalism','Copyediting','Sports','Books','Healthcare','Copywriting','Visual Storyteller','Pop Culture','Content','UI & Graphic Design','Content & UI','Marketing Strategies']
+
+
 
 
 class UserCard extends Component {
@@ -30,7 +36,8 @@ class UserCard extends Component {
 
     userCards = () => (
         this.state.user.map((user,i) => (
-            <Card style={{width:300, height:400, display: 'inline-block', margin:10,textAlign:'left'}}>
+            <Grow in={true} timeout={1000}>
+            <Card style={{width:300, height:400, display: 'inline-block', margin:10,textAlign:'left',}}>
       <CardActionArea style={{backgroundColor:'#'}}>
         <CardMedia
           component="img"
@@ -62,6 +69,8 @@ class UserCard extends Component {
       </Typography>
       </CardContent>
     </Card>
+    </Grow>
+    
 
 
 
