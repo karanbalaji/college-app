@@ -12,15 +12,15 @@ self.__precacheManifest = [
     "url": "/college-app/static/js/runtime~main.9df05122.js"
   },
   {
-    "revision": "9c4ee774a6e639cbc8f4",
-    "url": "/college-app/static/js/main.9c4ee774.chunk.js"
+    "revision": "fa89562ae45fb96db724",
+    "url": "/college-app/static/js/main.fa89562a.chunk.js"
   },
   {
     "revision": "6747c6e4f7abd676c5b0",
     "url": "/college-app/static/js/1.6747c6e4.chunk.js"
   },
   {
-    "revision": "bc05c45dd79b68774080c4f3339e4024",
+    "revision": "b0d30cb737f11797cd80bfdfb9b40de2",
     "url": "/college-app/index.html"
   }
 ];
