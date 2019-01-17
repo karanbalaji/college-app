@@ -28,7 +28,7 @@ class UserCard extends Component {
 
     state = {
         user:['Karan','Sid','Mj','Nerissa','Lucas','Kai','Mara','Krystal','Sabrina','Julia','Sonia','Shivang','Natalia','Jermaine','Beb','Lexx','Paulina','Maysa'],
-        skill:['Business','Graphic Design','Graphics Design','Graphic Design','Development','Media & Psychology','Media Designer','Marketing','Media','Marketing','Graphic Designer','Graphic Designer','Graphic Designer','Graphic Design','Graphic Design','Copywriting','Journalism','Copywriting'],
+        skill:['Business','Graphic Design','Graphics Design','Graphic Design','Strategy','Media & Psychology','Media Designer','Marketing','Media','Marketing','Graphic Designer','Graphic Designer','Graphic Designer','Graphic Design','Graphic Design','Copywriting','Journalism','Copywriting'],
         img: {karan}
         
     }
@@ -82,7 +82,7 @@ class UserCard extends Component {
         return (
             <div style={{textAlign:'center',fontFamily:'Roboto'}}>
                 <br></br>
-                <h1>Senior Project Human Resource</h1>
+                <h1>Senior Project's Human Resource</h1>
             {this.userCards()}
             </div>
         );
